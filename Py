@@ -1,1 +1,2 @@
-
+from master_police import heartbeat
+heartbeat("indicator_engine", value=current_value)   # value optional, par fake-data pakadne ke liye zaroor do
